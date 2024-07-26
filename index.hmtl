@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preditor AviatorXmines</title>
+    <style>
+        /* CSS incorporado */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(45deg, #000000, #ff0000);
+            background-size: 200% 200%;
+            animation: gradient 10s ease infinite;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        @keyframes gradient {
+            0% { background-position: 0% 0%; }
+            50% { background-position: 100% 100%; }
+            100% { background-position: 0% 0%; }
+        }
+
+        .alert {
+            background-color: #ff0000;
+            color: #ffffff;
+            padding: 15px;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            width: 100%;
+            box-sizing: border-box;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 80px; /* Ajusta a margem superior para não sobrepor o alerta */
+            height: calc(100vh - 80px); /* Ajusta a altura da viewport menos a altura do alerta */
+        }
+
+        .btn {
+            background: #000;
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+            padding: 20px 50px; /* Ajusta o padding para aumentar o tamanho do botão */
+            font-size: 24px;
+            margin: 15px;
+            cursor: pointer;
+            transition: background 0.3s, transform 0.3s;
+            display: flex;
+            align-items: center;
+            position: relative;
+            text-align: center;
+        }
+
+        .btn:hover {
+            background: #ff0000;
+            transform: scale(1.05);
+        }
+
+        .btn img {
+            width: 40px; /* Ajuste o tamanho das imagens conforme necessário */
+            height: 40px; /* Ajuste o tamanho das imagens conforme necessário */
+            margin-right: 20px; /* Espaço entre a imagem e o texto */
+        }
+
+        .btn-preditor-aviator img {
+            margin-left: 10px;
+        }
+
+        .btn-preditor-mines img {
+            margin-left: 10px;
+        }
+
+        .premium-section {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .premium-section h2 {
+            font-size: 28px;
+            color: #fff;
+            margin-bottom: 20px;
+        }
+
+        .whatsapp-button {
+            background: #25D366; /* Cor do WhatsApp */
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+            padding: 15px 30px;
+            font-size: 20px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+            transition: background 0.3s;
+        }
+
+        .whatsapp-button:hover {
+            background: #128C7E; /* Cor do WhatsApp ao passar o mouse */
+        }
+
+        .whatsapp-button img {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="alert">
+        🚫 NÃO SE ESQUEÇA: CRIA NOVA CONTA DENTRO DO PREDITOR PARA GARANTIR O FUNCIONAMENTO DO MESMO
+    </div>
+    <div class="container">
+        <button class="btn btn-preditor-aviator" onclick="window.location.href='https://aviatorbot2024.github.io/minesxaviator/'">
+            <img src="aviator-icon.png" alt="Aviator Icon"> <!-- Substitua pelo caminho da sua imagem -->
+            PREDITOR AVIATOR‼️
+        </button>
+        <button class="btn btn-preditor-mines" onclick="window.location.href='https://abre.ai/baixarpredictordomines'">
+            <img src="mines-icon.png" alt="Mines Icon"> <!-- Substitua pelo caminho da sua imagem -->
+            PREDITOR DO MINES
+        </button>
+        <div class="premium-section">
+            <h2>CLIQUE EM UM DOS BOTÕES A CIMA PARA ACESSAR O PREDITOR DO MINES E AVIATOR</h2>
+            <a href="https://wa.me/258867969698?text=Boa%20vim do preditor%20a%20vers%C3%A3o%20premium" class="whatsapp-button" target="_blank">
+                <img src="whatsapp-icon.png" alt="WhatsApp Icon"> <!-- Substitua pelo caminho do ícone do WhatsApp -->
+                SUPORTE WHATSAPP
+            </a>
+        </div>
+    </div>
+</body>
+</html>
